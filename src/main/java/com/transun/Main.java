@@ -1,4 +1,16 @@
 package com.transun;
 
-public class Main {
+import com.transun.util.ConfUtil;
+
+/**
+ * Hello world!
+ *
+ */
+public class Main
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        System.out.println(ConfUtil.properties.getProperty("url"));
+    }
 }
