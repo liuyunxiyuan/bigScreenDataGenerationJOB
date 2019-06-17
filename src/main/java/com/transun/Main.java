@@ -12,5 +12,7 @@ public class Main
     {
         System.out.println( "Hello World!" );
         System.out.println(ConfUtil.properties.getProperty("url"));
+
+        System.out.println( "Hello" + args[0] );
     }
 }
